@@ -13,7 +13,7 @@ class Animal {
   }
 }
 
-/* Dog Class inherite the Animal Class */
+/* Dog Class inherit the Animal Class */
 class Dog extends Animal {
   String? name;
   int? age; 

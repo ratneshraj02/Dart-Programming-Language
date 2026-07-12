@@ -9,7 +9,7 @@
 
  */
 
-/* 1. No Paramenter And no Return Type */
+/* 1. No Parameter And no Return Type */
 /*
   In this function, we have not pass any parameter and return type, use void as return datatype.
 
@@ -46,8 +46,8 @@ int add() {
   e.g :
 */
 
-double calculateInterest(double priciple, double rate, double time) {
-  double si = (priciple * rate * time) / 100;
+double calculateInterest(double principle, double rate, double time) {
+  double si = (principle * rate * time) / 100;
 
   return si;
 }

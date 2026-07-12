@@ -1,7 +1,7 @@
 /* Control Statement */
 
 /*
-  The control statment are use to control execution flow within program it includes brancing of statment or codes, help to write condition, selection, jump and iteration in the program control stement consist on the following.
+  The control statement are use to control execution flow within program it includes branching of statement or codes, help to write condition, selection, jump and iteration in the program control statement consist on the following.
 
   1. if statement
   2. if-else statement

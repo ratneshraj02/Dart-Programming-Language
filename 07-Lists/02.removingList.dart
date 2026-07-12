@@ -13,7 +13,7 @@ int main(){
   roll_no.removeAt(8);
   print(roll_no);
 
-  /* remonig element from range(start, end) */
+  /* removing element from range(start, end) */
   roll_no.removeRange(5,7);
   print(roll_no);
 
@@ -29,7 +29,7 @@ int main(){
   /* Reversed the order of array */
   print(roll_no.reversed);
 
-  /* accessing element throught loop */
+  /* accessing element thought loop */
   for(var item in roll_no){
     print(item);
   }

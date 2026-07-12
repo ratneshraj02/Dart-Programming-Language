@@ -1,6 +1,6 @@
 /* Looping */
 /*
-  Looping is a technique which used to execute a block of code continuously or a repeatadly till a certain condition is true. looping is ued to reduced writting budden form from the programmer and make the execution faster.
+  Looping is a technique which used to execute a block of code continuously or a repeatedly till a certain condition is true. looping is ued to reduced writing bidden form from the programmer and make the execution faster.
 
   A loop can consist by the following.
 

@@ -12,11 +12,11 @@ class Animal {
 //parent class
 class Dog extends Animal {
   void bark(){
-    print("The Dog is barking continously");
+    print("The Dog is barking continuously");
   }
 
   void likeFood(){
-    print("Bisket Food");
+    print("Basket Food");
   }
 }
 

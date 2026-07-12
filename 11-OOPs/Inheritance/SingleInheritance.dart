@@ -1,5 +1,5 @@
 class Animal{
-  String? name, breed, colour;
+  String? name, breed, color;
   int? age;
   
 
@@ -7,14 +7,14 @@ class Animal{
     name = "";
     breed = "";
     age = 0;
-    colour = "";
+    color = "";
   }
 
   void disp(){
     print('Animal=$name');
     print('Type=$breed');
     print("Survival Age=$age");
-    print('Color=$colour');
+    print('Color=$color');
   }
 }
 

@@ -3,7 +3,7 @@ class Employee{
  int?id;
  double?salary;
  Employee(this.nm,this.id,this.salary){
-  print("Parenet Class Constructor is Called");
+  print("Parent Class Constructor is Called");
  }
 }
 class Manager extends Employee{
@@ -15,7 +15,7 @@ class Manager extends Employee{
 
   }
   void disp(){
-    print("EMployee Name=${super.nm}");//calling parent class's data memeber within child class 
+    print("EMployee Name=${super.nm}");//calling parent class's data member within child class 
     print("EMployee ID=${super.id}");
     print("EMployee Salary=${super.salary}");
     print("-----------------------------------");

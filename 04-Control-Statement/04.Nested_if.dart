@@ -1,6 +1,6 @@
 /* Nested if-else statement */
 /*
-  One if statement inside another if is called nested if. In nested if all condition should be satisfied during execution i.e it works similliar to logical AND.
+  One if statement inside another if is called nested if. In nested if all condition should be satisfied during execution i.e it works similar to logical AND.
 
   It is used to provide branching in the program.
 

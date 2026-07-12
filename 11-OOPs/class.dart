@@ -1,6 +1,6 @@
 /* Class in Dart */
 /*
-  Dart is an object oriented programming language so its supports all the conecpt an OOPs like class, Inheritance, inheritence,Polymorphism, Abstraction, Encapsulation etc that's helps to desgin large & complex software very easily.
+  Dart is an object oriented programming language so its supports all the concept an OOPs like class, Inheritance, inheritance,Polymorphism, Abstraction, Encapsulation etc that's helps to design large & complex software very easily.
 
   Dart helps to user to create an interactive UI.
 
@@ -27,9 +27,9 @@ void main(){
 
   /* Object  */
   /*
-    Object is instance of a class that can easily share class properties means object provides intraction in the program.
+    Object is instance of a class that can easily share class properties means object provides interaction in the program.
 
-    A Class can hava multiple objects and each objects can separtely access the class properties.
+    A Class can have multiple objects and each objects can separately access the class properties.
   */
   /* Create a object of Class Student */
 

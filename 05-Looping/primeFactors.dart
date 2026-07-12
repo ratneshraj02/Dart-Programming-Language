@@ -17,7 +17,7 @@ int main(){
     }
   }
 
-  //print the primefactors list
+  //print the prime factors list
   for(var ele in primeFactors){
     stdout.write("$ele \t");
   }

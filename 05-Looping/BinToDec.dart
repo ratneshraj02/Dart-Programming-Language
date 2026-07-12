@@ -7,7 +7,7 @@ int main(){
   n = int.parse(stdin.readLineSync()!);
 
   int res = decToBin(n);
-  print("$n is equilent is $res");
+  print("$n is equivalent is $res");
 
   return 0;
 }

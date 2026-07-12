@@ -1,6 +1,6 @@
 /* if-else statement */
 /*
-  It is similar to if statement that is also allows to check condition within program and perform the task accordingly that is when condition is true if body will execute othewise else body will be executed.
+  It is similar to if statement that is also allows to check condition within program and perform the task accordingly that is when condition is true if body will execute otherwise else body will be executed.
 
 
   if(condition) {

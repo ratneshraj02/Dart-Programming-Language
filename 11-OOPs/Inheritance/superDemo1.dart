@@ -6,7 +6,7 @@
 
   Super keyword can be used for :- 
 
-  1. It invokes super class data memebers within child class.
+  1. It invokes super class data members within child class.
   2. Super keyword can invoke parent class method within child class method.
   3. Super() can call parent class constructor within child class constructor.
 

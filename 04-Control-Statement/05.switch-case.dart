@@ -1,6 +1,6 @@
 /* Switch Case */
 /*
-  It is an alternet of ladder. if - else that allows you to perform different task on the basis of cases. which means switch statement takes and expersion and provide multiple cases that allows to write statements or code. 
+  It is an alternative of ladder. if - else that allows you to perform different task on the basis of cases. which means switch statement takes and expression and provide multiple cases that allows to write statements or code. 
   
   switch statement consist on the following :-
 
@@ -21,7 +21,7 @@
             statement;
             break
           default:
-            statment;
+            statement;
         }
 */
 

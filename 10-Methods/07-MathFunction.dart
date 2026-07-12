@@ -1,14 +1,14 @@
 /* Math Function */
 /*  
-  Math is inbuilt function that help us to perform mathmetial operation efficently.
+  Math is inbuilt function that help us to perform mathematical operation efficiently.
 */
 
 import 'dart:math';
 
 void main() {
   Random random = new Random();
-  int newrandom = random.nextInt(10) + 1;
-  print(newrandom);
+  int newRandom = random.nextInt(10) + 1;
+  print(newRandom);
 
   //random number between min & max
   int min = 10;

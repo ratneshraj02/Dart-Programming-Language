@@ -1,6 +1,6 @@
 int main(){
   
-  /* Creata the set datatype */
+  /* Create the set datatype */
   //You can declare a map using a terse literal syntax, or you can use a traditional constructor: 
 
   var StudentBeg = {
@@ -11,7 +11,7 @@ int main(){
     "WaterBottle": ['Milton'],
   };
 
-  //Map can be built from a constructer
+  //Map can be built from a constructor
   var SearchItem = new Map();
   SearchItem.addEntries(StudentBeg.entries);
   print(SearchItem);
@@ -47,7 +47,7 @@ int main(){
   print(StudentItem.length);
 
 
-  //print the memmory location of the map
+  //print the memory location of the map
   print(StudentItem.hashCode);
 
   //print the type of map

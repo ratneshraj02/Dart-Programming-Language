@@ -1,14 +1,8 @@
 /* For Loop */
-/*
-    
-*/
-
-
 
 
 
 // print table of the number
-
 import 'dart:io';
 int main(){
   print("Enter the number :");

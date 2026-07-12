@@ -1,14 +1,14 @@
 /* Inheritance */
 /*
-  In inheritance is the most important features of an obect oriented programming that provides a reallife relation between classes.
+  In inheritance is the most important features of an object oriented programming that provides a real life relation between classes.
 
-  In iheritance, there is an existing class called super class/parent class/base class & derived class is called sub class/ child class.
+  In inheritance, there is an existing class called super class/parent class/base class & derived class is called sub class/ child class.
 
-  Iheritance is similar to heridity of our realworld in which a child class can access either some or all the properties of their parent class & child class also have their own properties.
+  Inheritance is similar to heredity of our real world in which a child class can access either some or all the properties of their parent class & child class also have their own properties.
 
-  Iheritance enables an access for child class by which it can call the methods of their parent class.
+  Inheritance enables an access for child class by which it can call the methods of their parent class.
 
-  Benifits of Iheritance :-
+  Benefits of Inheritance :-
     -> Code Reusability:  
     -> Methods overriding:
     -> Dynamic binding:
@@ -47,7 +47,7 @@ class Animal {
   }
 }
 
-/* Dog Class inherite the Animal Class */
+/* Dog Class inherit the Animal Class */
 class Dog extends Animal {
   String? name;
   int? age; 

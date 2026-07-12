@@ -1,9 +1,9 @@
 /* Array */
 
 /*
-  Array is a collection of similar type of data that store at conjunctive memory locations, In Dart language array is alos known as List.
+  Array is a collection of similar type of data that store at conjunctive memory locations, In Dart language array is also known as List.
 
-  List is use to represent a collection of objects. the core libaries in dart for the existance of list class, it creation & manipulation.
+  List is use to represent a collection of objects. the core libraries in dart for the existence of list class, it creation & manipulation.
 
 */
 import 'dart:io';

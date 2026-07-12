@@ -1,6 +1,6 @@
 import 'dart:io';
 
-class Student{
+class Student {
   int? pClass;
   int? roll_no;
   String? fName;
@@ -14,8 +14,7 @@ class Student{
   double? m5;
 
   //method to get the user data
-  void get(){
-
+  void get() {
     stdout.write("Enter the pClass:");
     pClass = int.parse(stdin.readLineSync()!);
 
@@ -48,53 +47,54 @@ class Student{
     m5 = double.parse(stdin.readLineSync()!);
   }
 
-  double? tMarks(m1, m2, m3, m4, m5){
-      return m1 + m2 + m3 + m4 + m5;
+  double? tMarks(m1, m2, m3, m4, m5) {
+    return m1 + m2 + m3 + m4 + m5;
   }
 
   //find the %
-  double? perc(m1, m2, m3, m4, m5){
+  double? percentage(m1, m2, m3, m4, m5) {
     double sum = tMarks(m1, m2, m3, m4, m5)!;
     double res = sum / 500 * 100;
-    return res; 
+    return res;
   }
 
-  //method the display the all imformation about student
-  void display(){
+  //method the display the all information about student
+  void display() {
     print("$pClass");
     print("$roll_no");
     print("$fName");
     print("$lName");
-    print("$address");;
+    print("$address");
+    ;
     print("marks is $m1 $m2 $m3 $m4 $m5");
   }
 
   //method to check the student division
-  String checkDivision(marks){
+  String checkDivision(marks) {
     String res = "";
-    if(marks >= 60){
-      res =  "First Division";
-    }
-    else if(marks >= 40){
-      res =  "Second Division";
-    }
-    else if(marks >= 30) {
-      res =  "Third Division";
-    }
-    else {
-      res =  "Fail";
+    if (marks >= 60) {
+      res = "First Division";
+    } else if (marks >= 40) {
+      res = "Second Division";
+    } else if (marks >= 30) {
+      res = "Third Division";
+    } else {
+      res = "Fail";
     }
     return res;
   }
-
 }
 
-void main(){
+void main() {
   Student mohan = new Student();
   mohan.get();
   mohan.display();
 
-  print("percentage is :${mohan.perc(mohan.m1, mohan.m2, mohan.m3, mohan.m4, mohan.m5)}");
+  print(
+    "percentage is :${mohan.percentage(mohan.m1, mohan.m2, mohan.m3, mohan.m4, mohan.m5)}",
+  );
 
-  print("${mohan.checkDivision(mohan.perc(mohan.m1, mohan.m2, mohan.m3, mohan.m4, mohan.m5))}");
-}  
+  print(
+    "${mohan.checkDivision(mohan.percentage(mohan.m1, mohan.m2, mohan.m3, mohan.m4, mohan.m5))}",
+  );
+}

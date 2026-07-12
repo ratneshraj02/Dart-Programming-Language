@@ -19,7 +19,7 @@ class Landlord {
     print("Flat Name : ${flatName}");
     print("Flat Type : ${flatType}");
     print("Flat Price : ${flatPrice}");
-    print("Flat Addres : ${flatAddress}");
+    print("Flat Address : ${flatAddress}");
     print("Landlord Mobile Number : ${landLordMobileNumber}");
   }
 }

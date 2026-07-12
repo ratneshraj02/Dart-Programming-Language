@@ -2,18 +2,18 @@
 /* 
   A Constructor is a special member method/function of a class that has same name as their class name 
 
-  Constructor is used to allocate memory for class object & also used to intilialize data memebers of a class.
+  Constructor is used to allocate memory for class object & also used to initialize data members of a class.
 
-  Unlike methods, constuctor is called automatically when object is created and don't return anything.
+  Unlike methods, constructor is called automatically when object is created and don't return anything.
 
   this keyword :
-    It is a temporary reference or object of a class that is used to invlove data methods of class writen same class scope.
+    It is a temporary reference or object of a class that is used to involve data methods of class written same class scope.
 */
 
 
 /* Class */
 class Book {
-  /* Data Memebers */
+  /* Data Members */
   String? name;
   String? W_name;
   DateTime? releaseData;
@@ -32,7 +32,7 @@ class Book {
   
 }
 void main(){
-  /* creata a object of Book class name as "b1" */
+  /* create a object of Book class name as "b1" */
   Book b1 = new Book("Concept & Application","Sumitabha Das",DateTime.parse("2009-12-01"), 720.0);
   b1.display();
 }

@@ -2,15 +2,15 @@
 
 
 class FEA{
-  String?regno;
+  String? registrationNo;
   int ? no_students;
   int? fee;
-  FEA(this.regno,this.no_students,this.fee){
+  FEA(this.registrationNo,this.no_students,this.fee){
     print("Hello Parent Class Constructor");
   }
 
   void write(){
-    print("Registration Number=$regno");
+    print("Registration Number=$registrationNo");
     print("No of Students=$no_students");
   }
 }
@@ -18,14 +18,14 @@ class FEA{
 class Student extends FEA{
   int? id;
   String? snm,course;
-  Student(String?regno,int?no_students,int?fee,int?id,String?snm,String?course):super(regno,no_students,fee){//calling constructor of parent class
+  Student(String? registrationNo,int?no_students,int?fee,int?id,String?snm,String?course):super(registrationNo,no_students,fee){//calling constructor of parent class
     this.id=id;this.snm=snm;this.course=course;
   }
   void disp(){
     print("Student's id=$id");
     print("Student's Name=$snm");
-    print("Entrolled Course=$course");
-    print("Payble Fee=${super.fee}");//calling parent class data member
+    print("Enrolled Course=$course");
+    print("Payable Fee=${super.fee}");//calling parent class data member
     print("Institution details");
     super.write();//calling parent class method
   }

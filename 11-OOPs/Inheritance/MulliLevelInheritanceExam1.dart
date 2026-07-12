@@ -6,7 +6,7 @@ class College {
   int? collegeId;
 
 
-  void collegInfo(){
+  void collegeInfo(){
     print("${this.collegeName}");
     print("${this.collegeAddress}");
     print("${this.collegeId}");
@@ -47,7 +47,7 @@ int main(){
   ram.collegeName = "TPS College";
   ram.collegeAddress = "Chiraiyadanda Patan2";
   ram.collegeId = 108;
-  ram.collegInfo();
+  ram.collegeInfo();
   
   ram.deptName = "Vocational";
   ram.factMember = 20;

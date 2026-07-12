@@ -17,7 +17,7 @@ class Manager extends Bank {
 }
 
 class Customer extends Manager {
-  String? customerrName;
+  String? customerName;
   String? customer;
 
 }

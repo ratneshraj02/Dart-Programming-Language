@@ -1,8 +1,8 @@
 /* Hierarchical Inheritance  */
 /*
-  Hierarchical Inheritance is used to represent large number of child class & their hierarchy just like our generation hieratety.
+  Hierarchical Inheritance is used to represent large number of child class & their hierarchy just like our generation hierarchy.
 
-  It looks like a tree structure that represents classes & their hierarty
+  It looks like a tree structure that represents classes & their hierarchy
 
   e.g :             a
 

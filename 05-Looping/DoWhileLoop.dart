@@ -27,7 +27,7 @@ int main(){
 
   /* Continue */
   /*
-    It is used to continue execution of loop i.e when a continue statatment is encountered, compiler transfer the control at next illteration of loop
+    It is used to continue execution of loop i.e when a continue statement is encountered, compiler transfer the control at next iteration of loop
   */
   print("____continue____");
   int i;
@@ -40,7 +40,7 @@ int main(){
 
   /* Break :- */
   /*
-    It is use to break execution of loop that is when it encounterd compielr transfered control at outside of loop body. so, loop will terminate abnormaly.
+    It is use to break execution of loop that is when it encounter compiler transferred control at outside of loop body. so, loop will terminate abnormally.
   */
    print("____break____");
   int j;

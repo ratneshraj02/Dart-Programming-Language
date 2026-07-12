@@ -17,8 +17,8 @@ int main(){
 /*  ++x : prefix increment
 
   Working : 
-          1. We first increment the value of x by 1
-          2. Assign value of x to y.import
+          1. We first increment the value of x by value
+          2. Assign value of x to y.
 */
   int? x = 10;
   int? y = ++x;
@@ -28,7 +28,7 @@ int main(){
 
   Working : 
           1. We first assign value of that is old value
-          2. than increment by 1.
+          2. than increment by value.
 */
   int? a = 10;
   int? b = a++;
@@ -37,7 +37,7 @@ int main(){
 /*  --x : prefix decrement
 
   Working : 
-          1. We first decrement the value of x by 1.
+          1. We first decrement the value of x by value.
           2. Assign value of i  to j.
 */
   int? i = 5;
@@ -48,7 +48,7 @@ int main(){
 
   Working : 
           1. We first assign value of r to v is old value
-          2. than decremtn by 1.
+          2. than decrement by value.
 */
   int? r = 5;
   int? v = r--;

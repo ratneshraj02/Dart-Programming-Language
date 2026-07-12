@@ -18,7 +18,7 @@ int main(){
   arr.insert(0, 75);
   print("after insert 0th element :$arr");
 
-  /* insert all element in the specfic index */
+  /* insert all element in the specific index */
   arr.insertAll(0, [12, 19]);
   print("after insert all :$arr");
 

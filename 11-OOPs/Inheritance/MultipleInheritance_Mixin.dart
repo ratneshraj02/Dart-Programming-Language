@@ -1,9 +1,9 @@
-/* Mulitple Inheritance */
+/* Multiple Inheritance */
 
 /*
-  Not supported in Dart with class, mixins are used as an alternative for sharing code across differnt hierarchies.
+  Not supported in Dart with class, mixins are used as an alternative for sharing code across different hierarchies.
 
-  mixins are the primary way to reuse code from multiple source in Dart. A mixin is a class that contatins methods and properties that other classes can use.
+  mixins are the primary way to reuse code from multiple source in Dart. A mixin is a class that contains methods and properties that other classes can use.
 
   Use the with keyword to apply one or more mixins to a class. the members of the mixin are mixed in to the class, effectively becoming part of that class.
 

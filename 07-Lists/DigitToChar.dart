@@ -6,7 +6,7 @@ void main(){
 
   var ten = ["", " Eleven", " Twelve", " Thirteen", " Fourteen", " Fifteen", " Sixteen", "Seventeen", "Eighteen", "Nineteen"];
 
-  var tens = ["", " Tenth", " Tweentry", " Thirty", " Forty", " fifty", " Sixty", " seventy", " eighty", ' ninety'];
+  var tens = ["", " Tenth", " Twenty", " Thirty", " Forty", " fifty", " Sixty", " seventy", " eighty", ' ninety'];
 
   var hundred = [" ", " One hundred", " two hundred", " three hundred", " four hundred", " five hundred", " six hundred", " seven hundred", " eight hundred", " nine hundred"];
 
@@ -16,7 +16,7 @@ void main(){
   
   print("Enter the number :");
 
-  // var tenthousand = [" ", "eleven thousand", "twelve thousand", "thirteen thousand", "fourteen thousand", "fifteen thousand", "sixteen thousand", "seven thousand", "eighteen thousand", "ninteen thousand"];
+  // var tenthousand = [" ", "eleven thousand", "twelve thousand", "thirteen thousand", "fourteen thousand", "fifteen thousand", "sixteen thousand", "seven thousand", "eighteen thousand", "nineteen thousand"];
 
   int n = int.parse(stdin.readLineSync()!);
 

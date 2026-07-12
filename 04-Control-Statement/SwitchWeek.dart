@@ -19,7 +19,7 @@ switch(x){
   print("Wednesday");
   break;
    case 5:
-  print("Thrusday");
+  print("Thursday");
   break;
    case 6:
   print("Friday");

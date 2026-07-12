@@ -1,4 +1,4 @@
-/* Mathods or Functions */
+/* Methods or Functions */
 /*
   Functions are the block of code that performs a specific task. They are created when some statements are repeatedly occurring in the program. The function helps reusability of the code in the program.
 
@@ -29,9 +29,9 @@ int sumOfTwoNumber(int a, int b) { //Here a and b is parameter of function
   return a + b;
 }
 
-/* Calcuate simple interest */
-double simpleInterest(double priciple, double rate, double time) {
-  double si = priciple * rate * time / 100;
+/* Calculate simple interest */
+double simpleInterest(double principle, double rate, double time) {
+  double si = principle * rate * time / 100;
   return si;
 }
 

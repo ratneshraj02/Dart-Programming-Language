@@ -20,8 +20,8 @@ class Student extends FEA {
 
   Student(int? id, String? name, String? course):super(id, name){
 
-    this.studentId = id;// parent call data memeber
-    this.name = name; // parent call data memeber
+    this.studentId = id;// parent call data member
+    this.name = name; // parent call data member
     this.course = course; // child class data member
   }
 

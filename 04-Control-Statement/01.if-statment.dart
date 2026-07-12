@@ -1,10 +1,10 @@
-/* if statment */
+/* if statement */
 /*
   It is used to check a certain condition within program and acts accordingly which means when condition is true then body of if will be executed.
 
 
-  syntex : 
-        if(conditon) {
+  syntax : 
+        if(condition) {
           -----
           -----
           -----

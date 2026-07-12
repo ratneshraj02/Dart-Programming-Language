@@ -1,10 +1,10 @@
 /* Escape Sequence */
 /*  
-  These are the special character and specially use with formatted output function and they have speial meaning in dart compiler and program execution. These character are always written with (\) backslash.
+  These are the special character and specially use with formatted output function and they have special meaning in dart compiler and program execution. These character are always written with (\) backslash.
 
   \a -> alert
   \b -> backslash
-  \c -> carrige
+  \c -> carriage
   \f -> from feed
   \n -> new line
   \t -> Horizontal tab

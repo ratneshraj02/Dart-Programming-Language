@@ -3,12 +3,12 @@
   Abstraction is process in which parent & child both classes having a a same named, method with 
   ame signature & the child class has ability to modify the code of parent class method.
 
-  Abstaction is used to inhence method overriding & method overring increase in large code base abstract keyword is used to define abstract method and classes well.
+  Abstraction is used to inhertance method overriding & method overriding increase in large code base abstract keyword is used to define abstract method and classes well.
 
   Abstract methods :- An abstract method is similar to a generic method that doesn't contain any code or abstract method has only declaration rather than body & is only used for overriding
   purpose.
 
-  Abstarct Class :- A class that contains only abstract methods class, abstact class an abstract can't be instanced. It only inherited that leads method overring & abstraction process.
+  Abstract Class :- A class that contains only abstract methods class, abstract class an abstract can't be instanced. It only inherited that leads method overriding & abstraction process.
 */
 
 

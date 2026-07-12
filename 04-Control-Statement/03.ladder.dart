@@ -2,7 +2,7 @@
 /*
   If is a another from of if statement which is used to check multiple condition within a program. it works when a previous condition may false then next condition will check and this process will.
 
-  syntex :
+  syntax :
             if(condition-1){
               -------
               -------

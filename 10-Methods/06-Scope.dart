@@ -8,7 +8,7 @@
   If you created variables inside the method, you can use them inside the method block but not outside the method block.
  */
 
-// global scope use the variable anywhere in our progrm
+// global scope use the variable anywhere in our program
 String global = "I am Global. Anyone can access me.";
 
 

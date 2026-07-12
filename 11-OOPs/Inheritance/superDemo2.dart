@@ -1,5 +1,5 @@
 /*
-  1. It invokes super class data memebers within child class.
+  1. It invokes super class data members within child class.
 */
 import 'dart:io';
 
