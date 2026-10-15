@@ -1,4 +1,4 @@
-/* WAP to enter the three number and check the greather number of them */
+/* WAP to enter the three number and check the greater number of them */
 
 import 'dart:io';
 
@@ -15,13 +15,13 @@ int main(){
   num3 = int.parse(stdin.readLineSync()!);
 
   if(num1 > num2 && num1 > num3){
-    print("$num1 is greather");
+    print("$num1 is greater");
   }
   else if(num2 > num3 && num2 > num1){
-    print("$num2 is greather");
+    print("$num2 is greater");
   }
   else {
-    print("$num3 is greather");
+    print("$num3 is greater");
   }
 
   return 0;
