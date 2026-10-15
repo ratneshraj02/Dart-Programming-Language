@@ -8,17 +8,17 @@ int main(){
   print("Enter the first number :");
   num1 = int.parse(stdin.readLineSync()!);
 
-  print("Enter the first number :");
+  print("Enter the second number :");
   num2 = int.parse(stdin.readLineSync()!);
 
-  print("Enter the first number :");
+  print("Enter the third number :");
   num3 = int.parse(stdin.readLineSync()!);
 
   if(num1 > num2 && num1 > num3){
-    print("$num is greather");
+    print("$num1 is greather");
   }
   else if(num2 > num3 && num2 > num1){
-    print("$num is greather");
+    print("$num2 is greather");
   }
   else {
     print("$num3 is greather");
